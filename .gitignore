@@ -21,7 +21,7 @@ target/
 .springBeans
 .sts4-cache
 
-/exam/**
+/src/main/java/com/guangze/exam/**
 
 ### NetBeans ###
 /nbproject/private/
