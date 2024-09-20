@@ -29,7 +29,7 @@ public class Prim {
             for (Integer row : arr) {
                 for(int j = 0 ; j < graph.length ; j++){
                     if (!visited[j]){
-                        //
+                        // 找到权值最小且通的
                         if (graph[row][j] < val && graph[row][0] > 0){
                             start = j;
                             val = graph[row][j];
